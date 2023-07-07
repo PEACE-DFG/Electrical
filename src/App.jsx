@@ -1,5 +1,6 @@
 import './App.css'
-import React from 'react'
+import React, { useState } from 'react'
+import { createContext } from 'react'
 import Index from './Pages/Index'
 import './all.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -12,10 +13,12 @@ import Courses from './Pages/Courses'
 import Registers from './Pages/Registers'
 import Logins from './Pages/Logins'
 import Abouts from './Pages/Abouts'
-
+export const loggedIn=createContext()
 function App() {
  
+  const [isLoggedIn,setIsLoggedIn]=useState(false)
   return (
+    <loggedIn.Provider value={[isLoggedIn,setIsLoggedIn]}>
     <>
     <Routes>
       <Route path='/' element={<Index/>}> </Route>
@@ -29,6 +32,7 @@ function App() {
     </Routes>
       {/* <Index/> */}
     </>
+    </loggedIn.Provider>
   )
 }
 
