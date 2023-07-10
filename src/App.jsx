@@ -13,6 +13,7 @@ import Courses from './Pages/Courses'
 import Registers from './Pages/Registers'
 import Logins from './Pages/Logins'
 import Abouts from './Pages/Abouts'
+import Vcs from './Pages/Vcs'
 export const loggedIn=createContext()
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
       <Route path='/Registers' element={<Registers/>}></Route>
       <Route path='/Logins' element={<Logins/>}></Route>
       <Route path='/Abouts' element={<Abouts/>}></Route>
+      <Route path='/VcSpeech' element={<Vcs/>}></Route>
     </Routes>
       {/* <Index/> */}
     </>

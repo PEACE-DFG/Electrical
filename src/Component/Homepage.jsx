@@ -6,6 +6,7 @@ import '../../public/calculator.png'
 function Homepage() {
   const navigate=useNavigate()
   let user=JSON.parse(localStorage.getItem('users'))
+
   console.log(user)
   function Logout(){
     localStorage.clear()
@@ -263,7 +264,7 @@ function Homepage() {
   <div class="card-body">
   <h5 class="card-title text-center text-light" style={{fontSize:'13px',fontWeight:"700"}}>PROF.ODUNAYO CLEMENT ADEBOOYE</h5>
   <h5 class="card-title text-center" style={{fontSize:'13px',fontWeight:"700",color:'rgb(152, 238, 22)'}}>Vice Chancellor</h5>
-    <p class="card-text text-light" style={{fontSize:'12px'}}>I have the pleasure to welcome you to the website of Osun State University, Nigeria. Our main campus is located in Osogbo, the capital of the State of Osun, while our other campuses are located in five other towns ( Ejigbo, Ifetedo, Ikire, Ipetu-Ijesa and Okuku) spread across the six geopolitical zones of the State. Licensed on 21 December, 2006, we opened our doors to full academic activities on 21 September ... <span className='text-warning'>(Read More)</span>
+    <p class="card-text text-light" style={{fontSize:'12px'}}>I have the pleasure to welcome you to the website of Osun State University, Nigeria. Our main campus is located in Osogbo, the capital of the State of Osun, while our other campuses are located in five other towns ( Ejigbo, Ifetedo, Ikire, Ipetu-Ijesa and Okuku) spread across the six geopolitical zones of the State. Licensed on 21 December, 2006, we opened our doors to full academic activities on 21 September ... <span className='text-warning'><Link to='/VcSpeech'>(Read More)</Link></span>
 </p>
   </div>
 </div>
