@@ -186,7 +186,7 @@ Please Register and Sign in  toaccess your courses
 
     </h5>
     <p style={{textAlign:'justify'}}>
-  The recommended Textbook is title <u><i>SIMPLIFIED APPLIED ELECTRICITY 1</i></u> Hammed Oyebamiji Lasisi (Ph.D.). The softcopy is not available ata the moment but purchasal of the hard copy can be done within the school premises
+  The recommended Textbook is title <u><i>SIMPLIFIED APPLIED ELECTRICITY 1</i></u> by Hammed Oyebamiji Lasisi (Ph.D.). The softcopy is not available ata the moment but purchasal of the hard copy can be done within the school premises
 </p>
     
   </div>
@@ -198,7 +198,7 @@ Please Register and Sign in  toaccess your courses
         </u>
        </h6>
   </div>
-  <div className='container'>
+  <div className='container-fluid'>
   <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
