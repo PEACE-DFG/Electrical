@@ -14,6 +14,7 @@ import Registers from './Pages/Registers'
 import Logins from './Pages/Logins'
 import Abouts from './Pages/Abouts'
 import Vcs from './Pages/Vcs'
+import Tslevel from './Pages/Tslevel'
 export const loggedIn=createContext()
 function App() {
  
@@ -31,6 +32,7 @@ function App() {
       <Route path='/Logins' element={<Logins/>}></Route>
       <Route path='/Abouts' element={<Abouts/>}></Route>
       <Route path='/VcSpeech' element={<Vcs/>}></Route>
+      <Route path='/200level' element={<Tslevel/>}></Route>
     </Routes>
       {/* <Index/> */}
     </>
