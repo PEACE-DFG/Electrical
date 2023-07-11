@@ -618,9 +618,9 @@ Please Register and Sign in  toaccess your courses
     Click on the Link below to download the pdf 
   </u>
 </p>
-<p>
-<i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i>
-</p>
+{/* <p> */}
+{/* <i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i><i class="fa-solid fa-circle-down fa-fade text-warning"></i> */}
+{/* </p> */}
 <p >
 <h5>
 Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-7th-edition-j-l-meriam-l-g-kraige.pdf" className='text-info' target='_blank'>Engineering Mechanics. Volume 1. Statics. Seventh Edition by  J. L. Meriam. L. G. Kraige</a>
@@ -1066,7 +1066,7 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
   Click on the Link below to download the pdf
 </p>
 <p>
-  Link: <a href="https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf"> Learn C Programming by tutorial point simplifylearning</a>
+  Link: <a href="https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf" className='text-info'> Learn C Programming by tutorial point simplifylearning</a>
   </p>  
 
   <p>
@@ -1074,7 +1074,7 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
     </p>
     <p>
       Link:  
-      <a href="https://www.w3schools.com/c/index.php">w3schools.com</a>
+      <a href="https://www.w3schools.com/c/index.php" className='text-info'>w3schools.com</a>
       </p>  
   </div>
 
@@ -1095,6 +1095,60 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
           </div>
           <div className="col-md">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+        </div>
+        {/* <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. */}
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+  </section>
+</section>
+{/* French section */}
+<section>
+<div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    3.  Basic French <span className='text-warning'>(GNS 211)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Beginning French for the Utterly Confused by A. Sebastian Mercado,MA</i></u> 
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://www.ircambridge.com/books/french-for-beginners.pdf" className='text-info'>Beginning French for the Utterly Confused</a>
+  </p>  
+
+    
+  </div>
+
+  <section className='mt-3 container-fluid'>
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Basic French Full course
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <div className="row">
+          <div className="col-md">
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+          <div className="col-md">
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
         </div>
