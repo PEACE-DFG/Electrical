@@ -1436,7 +1436,257 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
 </div>
   </section>
 </section>
+<section className='container-fluid'>
+<div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    6. Fundamental Of Electromagnetic Induction, Electrical Machines & Digital Electronics[Applied Electricity II] <span className='text-warning'>(EEE 202)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Fundamental Of Electromagnetic Induction, Electrical Machines & Digital Electronics[Applied Electricity II]</i></u> by Hammed Oyebamiji Lasisi (Ph.D.). The softcopy is not available at the moment but purchasal of the hard copy can be done within the school premises
+</p>
+    
+  </div>
+  <div className='text-light text-center py-2'>
+       <h6>
+        <u>
+    Useful Youtube Videos Are Below
+          
+        </u>
+       </h6>
+  </div>
+  {/* acordion section */}
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSixteen">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+        ALTERNATING CURRENT CIRCUIT
+      </button>
+    </h2>
+    <div id="collapseSixteen" class="accordion-collapse collapse show" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div className="row">
+          <div className="col-md">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md">
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybz9ahH4GCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/MhfIZpDA3aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwo">
+      ELECTROMAGNETIC INDUCTION
+      </button>
+    </h2>
+    <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div className="row">
+          <div className="col-md">
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/jz92oOkJFNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/LDOa7UdfcMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/gMn0MDl4vkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+        {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybz9ahH4GCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/9UVu7DvaNMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/MhfIZpDA3aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
+        ELECTRICAL MACHINE
+      </button>
+    </h2>
+    <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/nscqJxCIEHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/jz92oOkJFNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1aKEcM2YOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/LDOa7UdfcMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rx_Zn_1eJBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/gMn0MDl4vkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+        {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybz9ahH4GCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/U8IOOdwEGbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/9UVu7DvaNMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/MhfIZpDA3aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* @############# */}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
+        TRANSFORMER
+      </button>
+    </h2>
+    <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/9hBmgdGjt1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/nscqJxCIEHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/jz92oOkJFNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/-j3W_RpiWoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1aKEcM2YOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/LDOa7UdfcMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Y4FLaqdNaTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rx_Zn_1eJBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/gMn0MDl4vkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+        {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybz9ahH4GCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/IKx5yHPn3V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/U8IOOdwEGbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/9UVu7DvaNMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/MhfIZpDA3aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* %%%%%%%%%%%%%%%% */}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFive" aria-expanded="false" aria-controls="collapseTwentyFive">
+        DIGITAL ELECTRONICS
+      </button>
+    </h2>
+    <div id="collapseTwentyFive" class="accordion-collapse collapse" aria-labelledby="headingTwentyFive" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/gI-qXk7XojA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/9hBmgdGjt1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/nscqJxCIEHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/jz92oOkJFNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/JQBRzsPhw2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/-j3W_RpiWoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1aKEcM2YOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/LDOa7UdfcMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/87SH2Cn0s9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/KDctLHs6iM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/RO5alU6PpSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Y4FLaqdNaTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rx_Zn_1eJBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/gMn0MDl4vkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/tcP9c6SnGQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+        {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ybz9ahH4GCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          </div>
+          <div className="col-md">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/FFDMzbrEXaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/IKx5yHPn3V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/U8IOOdwEGbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/9UVu7DvaNMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/MhfIZpDA3aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ERIToctYUcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
+</section>
+
 
     </div>
   )

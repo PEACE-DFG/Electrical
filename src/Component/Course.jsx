@@ -216,7 +216,7 @@ Please Register and Sign in  toaccess your courses
     <section>
         <div className='m-auto text-center container bg-light'>
     <section>
-      <div>
+      {/* <div>
         <h4>
           100 LEVEL
         </h4>
@@ -226,7 +226,7 @@ Please Register and Sign in  toaccess your courses
           HARMATTAN SEMESTER
         </h5>
         <hr />
-      </div>
+      </div> */}
       {/* Table section */}
       <div>
         {/* <table>
@@ -240,7 +240,7 @@ Please Register and Sign in  toaccess your courses
         </table> */}
       </div>
     </section>
-            {/* <div>
+            <div>
                 <img src={'f1.png'} className='w-75  img-fluid' alt="" />
             </div>
             <div>
@@ -251,8 +251,8 @@ Please Register and Sign in  toaccess your courses
             </div>
             <div>
                 <img src={'f4.png'} className='w-75 img-fluid' alt="" />
-            </div> */}
-            {/* <div>
+            </div>
+            <div>
                 <img src={'f5.png'} className='w-100 img-fluid' alt="" />
             </div>
             <div>
@@ -269,7 +269,7 @@ Please Register and Sign in  toaccess your courses
             </div>
             <div>
                 <img src={'f10.png'} className='w-100 img-fluid' alt="" />
-            </div> */}
+            </div>
         </div>
     </section>
 </section>
