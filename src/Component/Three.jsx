@@ -174,7 +174,208 @@ Please Register and Sign in  toaccess your courses
        </marquee>
        <hr style={{color:'white'}} className='my-2 py-2' />
 
-       
+       <section className='container'>
+        <div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    1. Python For Everybody <span className='text-warning'>(EEE 316)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Python For Everybody</i></u> by Dr. Charles R. Severance. 
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf" className='text-info'> Python For Everybody</a>
+  </p>  
+
+  <p>
+    You can also check out breakdown of All topics from w3school.com;Just click on the Link below to check it out
+    </p>
+    <p>
+      Link:  
+      <a href="https://www.w3schools.com/python/default.asp" className='text-info'>w3schools.com</a>
+      </p>  
+    
+  </div>
+       </p>
+          <h3>
+            
+          </h3>
+        </div>
+       <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       Python Full Course
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row g-1">
+    <div class="col-md-6 ">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ethnHSgVbHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe> */}
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/eWRfhZUzrAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ErcH_OuCaNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>  */}
+    </div>
+  </div>
+        {/* <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. */}
+      </div>
+    </div>
+  </div>
+  {/* <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div> */}
+</div>
+
+{/* SECOND ACCORDION COURSE */}
+<div className='container text-light my-3 pb-3'>
+    <h5 className='mt-5'>
+<u>
+    2. Engineering Mathematics <span className='text-warning'>(EEE 331)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Advanced-Engineering-Mathematics</i></u> by Dr. Charles R. Severance. 
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://elektrolibraria.files.wordpress.com/2015/12/197-advanced-engineering-mathematics.pdf" target='_blank' className='text-info'> Advanced-Engineering-Mathematics</a>
+  </p> 
+    
+  </div>
+<div class="accordion mt-1" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+       Numerical Analysis
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseFour">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    3. Use Of Engineering Software Packages <span className='text-warning'>(EEE 307)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>MATLAB Programming For Engineers</i></u> by Stephen J. Chapman 
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://www.ssgmce.ac.in/student_resource/Electronics%20&%20Telecommunication%20Engg./CSE_3u/MatLab%20Stephen%20J.%20Chapman.pdf" className='text-info'> MATLAB Programming For Engineers</a>
+  </p>  
+
+  <p>
+    You can also check out breakdown of All topics from MathWorks;Just click on the Link below to check it out
+    </p>
+    <p>
+      Link:  
+      <a href="https://www.mathworks.com/help/matlab/getting-started-with-matlab.html?s_tid=CRUX_lftnav" className='text-info'>MathWorks.com</a>
+      </p>  
+    
+  </div>
+       </p>
+          <h3>
+            
+          </h3>
+        </div>
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+       Mathlab Full Course
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row g-1">
+    <div class="col-md-6 ">
+    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/7f50sQYjNRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ethnHSgVbHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe> */}
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/qGiKv3-02vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+       </section>
   </section>
     </div>
   )
