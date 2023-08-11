@@ -170,7 +170,8 @@ Please Register and Sign in  toaccess your courses
   </div>
 </nav>
 {/* Next section */}
-<section style={{backgroundColor:'rgb(0,0,0,0.6)'}} className='pb-3'>
+<section style={{backgroundColor:'rgb(0,0,0,0.6)'}}>
+<section  className=' container pb-3'>
   <div>
        <marquee behavior="" className='text-light' direction="">
         This Page Contains Useful Material Resources For All Courses in 200 level
@@ -2085,6 +2086,8 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
 </div>
 </section>
 </section>
+</section>
+
 
 
     </div>

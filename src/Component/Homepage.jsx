@@ -15,34 +15,34 @@ function Homepage() {
   }
   const [outputValue, setOutputValue] = useState('0');
 
-  const handleButtonClick = (value) => {
-    if (value === '=') {
-      try {
-        const result = eval(outputValue);
-        setOutputValue(result.toString());
-      } catch (error) {
-        setOutputValue('Error');
-      }
-    } else if (value === 'C') {
-      setOutputValue('');
-    } else if (value === 'DEL') {
-      setOutputValue(outputValue.slice(0, -1));
-    } else if (value === 'sqrt') {
-      setOutputValue(Math.sqrt(Number(outputValue)).toString());
-    } else if (value === 'sin') {
-      setOutputValue(Math.sin(Number(outputValue)).toString());
-    } else if (value === 'cos') {
-      setOutputValue(Math.cos(Number(outputValue)).toString());
-    } else if (value === 'tan') {
-      setOutputValue(Math.tan(Number(outputValue)).toString());
-    } else if (value === 'log') {
-      setOutputValue(Math.log10(Number(outputValue)).toString());
-    } else if (value === 'invLog') {
-      setOutputValue(Math.pow(10, Number(outputValue)).toString());
-    } else {
-      setOutputValue(outputValue + value);
-    }
-  };  // const handleButtonClick = () => {
+  // const handleButtonClick = (value) => {
+  //   if (value === '=') {
+  //     try {
+  //       const result = eval(outputValue);
+  //       setOutputValue(result.toString());
+  //     } catch (error) {
+  //       setOutputValue('Error');
+  //     }
+  //   } else if (value === 'C') {
+  //     setOutputValue('');
+  //   } else if (value === 'DEL') {
+  //     setOutputValue(outputValue.slice(0, -1));
+  //   } else if (value === 'sqrt') {
+  //     setOutputValue(Math.sqrt(Number(outputValue)).toString());
+  //   } else if (value === 'sin') {
+  //     setOutputValue(Math.sin(Number(outputValue)).toString());
+  //   } else if (value === 'cos') {
+  //     setOutputValue(Math.cos(Number(outputValue)).toString());
+  //   } else if (value === 'tan') {
+  //     setOutputValue(Math.tan(Number(outputValue)).toString());
+  //   } else if (value === 'log') {
+  //     setOutputValue(Math.log10(Number(outputValue)).toString());
+  //   } else if (value === 'invLog') {
+  //     setOutputValue(Math.pow(10, Number(outputValue)).toString());
+  //   } else {
+  //     setOutputValue(outputValue + value);
+  //   }
+  // };  // const handleButtonClick = () => {
   //   setOutputValue('1');
   // };
   return (
@@ -381,172 +381,7 @@ Please Register and Sign in  toaccess your courses
         </section>
 
 
-        <section>
-          {/* calculator */}
-          <section style={{position:'fixed',top:'580px'}}>
-          <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-calculator fs-1"></i></button>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style={{backgroundImage:'url(https://cdn.pixabay.com/photo/2019/12/21/20/44/math-work-4711302_1280.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
-  <div class="offcanvas-header text-light bg-success">
-    <h5 id="offcanvasRightLabel" > CODEMaster  Scientific Calculator</h5>
-   
-    <button type="button" class="btn-close text-reset bg-light " style={{color:'white'}} data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <marquee behavior="" direction="" style={{color:'white',backgroundColor:"rgb(0,0,0,0.6)"}}>
-      Please this Calculator is very Sensitive and  may not function well without following the right Syntax please read the manual before use
-    </marquee>
-  <hr />
-
-  <div class="offcanvas-body">
-    <section  style={{maxWidth:'280px',margin:'auto',border:'1px solid black',padding:'20px',borderRadius:'10px',boxShadow:'8px 8px 15px grey',backgroundColor:'rgb(0,0,0,0.7)'}}>
-   <section style={{textAlign:'center'}}>
-   <div >
-        <input type="text" style={{fontSize:'20px',borderRadius:'10px'}} id="output" className='py-2' size={'15'} placeholder={outputValue}/>     
-     </div>
         
-  
-  <div class="btn-group mt-3 " role="group" aria-label="First group">
-  <button type="button" style={{fontSize:'15px'}} className="btn btn-outline-secondary ms-2 bg-dark text-light " onClick={() => handleButtonClick('atan')}>tan<sup>-1</sup></button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary  bg-dark text-light" onClick={() => handleButtonClick('acos')}>cos <sup>-1</sup></button>
-    <button type="button" style={{fontSize:'15px'}}class="btn btn-outline-secondary bg-dark text-light " onClick={() => handleButtonClick('asin')}>sin <sup>-1</sup></button>
-    <button type="button"style={{fontSize:'15px'}} class="btn btn-outline-secondary bg-dark text-light "  onClick={() => handleButtonClick('tan')}>tan</button>
-  </div>
-  <div class="btn-group " role="group" aria-label="First group">
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-3 ms-2 bg-dark text-light" onClick={() => handleButtonClick('cos')}>cos</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4  bg-dark text-light"  onClick={() => handleButtonClick('sin')}>sin</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4  bg-dark text-light" onClick={() => handleButtonClick('sqrt')}>√</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-3  bg-dark text-light" onClick={() => handleButtonClick('**')}>^</button>
-
-  </div>
-  <div class="btn-group " role="group" aria-label="First group">
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 ms-2 bg-dark text-light" onClick={() => handleButtonClick('/')}>/</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-dark text-light" onClick={() => handleButtonClick('*')}>*</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-dark text-light" onClick={() => handleButtonClick('-')}>-</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-dark text-light" onClick={() => handleButtonClick('+')}>+</button>
-  </div>
-
-  <div class="btn-group " role="group" aria-label="First group">
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary ms-2 px-4 bg-light text-dark"  onClick={ ()=> handleButtonClick('9')}>9</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark"  onClick={ ()=> handleButtonClick('8')}>8</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark"  onClick={ ()=> handleButtonClick('7')}>7</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark"  onClick={ ()=> handleButtonClick('6')}>6</button>
-  </div>
-
-  <div class="btn-group " role="group" aria-label="First group">
-  <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 ms-2 bg-light text-dark"  onClick={ ()=> handleButtonClick('5')}>5</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark"  onClick={ ()=> handleButtonClick('4')}>4</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4  bg-light text-dark"  onClick={ ()=> handleButtonClick('3')}>3</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark" onClick={ ()=> handleButtonClick('2')}>2</button>
-  
-  </div>
- 
-  <div class="btn-group " role="group" aria-label="First group">
-  <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 ms-2 bg-light text-dark " onClick={ ()=> handleButtonClick('1')}>1</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-light text-dark " onClick={() => handleButtonClick('0')}>0</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-secondary px-4 bg-warning text-dark "  onClick={() => handleButtonClick('C')}>C</button>
-    <button type="button" style={{fontSize:'15px'}} class="btn btn-outline-danger bg-danger text-dark px-3 " onClick={() => handleButtonClick('DEL')}>DEL</button>
-  </div>
-
-  
-  <div className="btn-group m-auto  " role="group" aria-label="First group">
-  <button type="button" style={{fontSize:'12px'}} class="btn btn-outline-light bg-dark text-light px-4 mx-1 ms-3" onClick={() => handleButtonClick('log')}>log</button>
-  <button type="button" style={{fontSize:'12px'}} class="btn btn-outline-light bg-dark text-light px-4 mx-1" onClick={() => handleButtonClick('invLog')}>log <span><sup>-1</sup></span></button>
-  <button type="button" class="btn btn-outline-primary bg-primary text-light px-3 mx-1 " onClick={() => handleButtonClick('=')}>=</button>
-  </div>
-  
-   </section>
-    </section>
-  <section>
-    <hr />
-    <section>
-      <h3 className='text-center text-light' style={{backgroundColor:'rgb(0,0,0,0.8)'}}>
-      <i className='fa-solid fa-calculator'></i> Calculator Manual
-      </h3>
-      <hr />
-    </section>
-  <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        About Calculator
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <img src={'calculator.png'} alt="" />
-        </div>
-        <div>
-          <p>
-            This is a scientific programmable calculator that was created by CODEMaster. It can carry out basic arithmetic operations
-            such as: Addition,Subtraction,Multiplication,Division,Exponential and Trigonmetric Operations such as Sine,Cosine,Tangent,arcsine,arccos,arctan,logarithm and inverse logarithm.
-            <span>
-
-            </span><i className='text-warning'>
-                Please Proceed to the Operation mode to understand its use. <i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-arrow-down"></i>
-            </i>
-          </p>
-        </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Principle Of Operation
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body" >
-      <h6 className='text-dark'>Please read the instructions carefully</h6>
-<hr />
-<ol>
-  <li>
-    <p>
-      The arithmetic operation for addition,subtraction,division and multiplication is working fine. So you can make use of it similar to other calculators
-      e.g 2+2=4,3-3=0,5/3=1.66667,etc.
-    </p>
-  </li>
-  <li>
-    <p>
-      The <span style={{border:'1px solid orange',backgroundColor:'orange',padding:'2px 3px'}}>C</span> button is used to clear the screen irrespective of the string of characters
-    </p>
-  </li>
-  <li>
-  <p>
-      The <span style={{border:'1px solid red',backgroundColor:'red',padding:'2px 3px'}}>DEL</span> button is used to delete individual characters starting from the end Backwards.
-    </p>
-  </li>
-  <li>
-    <p>
-      To perform any of this operations: sin,cos,tan,√; enter the number first before pressing the opertional button e.g <kbd>press 49 + √</kbd> = <kbd>7</kbd> similarly <kbd>press 90 + sin</kbd>= <kbd>0.8939...</kbd>
-    </p>
-  </li>
-  
-</ol>
-        </div>
-    </div>
-    
-  </div>
-  {/* <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div> */}
-</div>
-  </section>
-    
-  </div>
-</div>
-
-          </section>
-        <footer className='text-light text-center' style={{backgroundColor:'rgb(91, 150, 2,0.7)'}}>
-             <span>Copyright <i class="fa-solid fa-copyright text-light"></i> 2023, Design by CODEMaster</span><i class="fa-brands fa-github"></i>
-            </footer>
-        </section>
 
     </div>
   )
