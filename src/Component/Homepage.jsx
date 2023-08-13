@@ -2,6 +2,10 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import '../../public/calculator.png'
+// import Lottie from 'lottie-react';
+// import animationData from '../assets/animation_ll8uslw2.json'
+import { motion } from 'framer-motion'
+
 
 function Homepage() {
   const navigate=useNavigate()
@@ -46,7 +50,11 @@ function Homepage() {
   //   setOutputValue('1');
   // };
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
          <div style={{backgroundColor:'rgb(91, 150, 2)'}} >
         <div className='container top text-light'  >
            <header className='d-flex '>
@@ -137,7 +145,7 @@ function Homepage() {
   <>
   <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
 <h5 className='text-center bg-danger text-light m-0 p-0'> <i class="fa-solid fa-bell fa-shake"></i>
-Please Register and Sign in  toaccess your courses
+Please Register and Sign in  to access your courses
 
 </h5>
     {/* <li><a class="dropdown-item" href="#"></a></li> */}
@@ -383,7 +391,7 @@ Please Register and Sign in  toaccess your courses
 
         
 
-    </div>
+    </motion.div>
   )
 }
 

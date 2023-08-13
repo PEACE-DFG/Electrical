@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link,useNavigate } from 'react-router-dom'
 import '../../public/engr.bada.jpg'
+import { motion } from 'framer-motion'
 
 function Lecture() {
   const navigate=useNavigate()
@@ -12,7 +13,11 @@ function Lecture() {
     
   }
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
             <div style={{backgroundColor:'rgb(91, 150, 2)'}} >
         <div className='container top text-light'  >
            <header className='d-flex '>
@@ -632,7 +637,7 @@ He is always active in SWEP programmes where 200 and 300 level students are enga
              <span>Copyright <i class="fa-solid fa-copyright text-light"></i> 2023, Design by CODEMaster</span><i class="fa-brands fa-github"></i>
             </footer>
         </section>
-    </div>
+    </motion.div>
   )
 }
 

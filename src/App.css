@@ -101,3 +101,13 @@
 .background-overlay {
   opacity: 1; /* When the show class is added, set opacity to 1 for the fade-in effect */
 }
+.lot{
+  position: absolute;
+   top: 150px;
+    right: 10px;
+     border: none;
+      background: none;
+       border-radius:50px;
+        cursor: pointer;
+        background-color:rgb(0,0,0,0.6)
+}

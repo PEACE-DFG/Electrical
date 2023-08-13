@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function Register() {
   const navigate = useNavigate();
@@ -57,7 +58,11 @@ function Register() {
   };
 
   return (
-    <div style={{backgroundImage:'url(https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg)',backgroundRepeat:'no-repeat',backgroundSize:'cover',height:'120vh'}}>
+    <motion.div 
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    style={{backgroundImage:'url(https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg)',backgroundRepeat:'no-repeat',backgroundSize:'cover',height:'120vh'}}>
                 <div style={{backgroundColor:'rgb(91, 150, 2)'}} >
          <div className='container top text-light'  >
             <header className='d-flex '>
@@ -239,7 +244,7 @@ Please Register and Sign in  toaccess your courses
  </div>
  </form>
  </section>
-     </div>
+     </motion.div>
   );
 }
 

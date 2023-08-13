@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import '../../public/lib.mp4'
+import { motion } from 'framer-motion'
 
 function Tlevel() {
   const navigate=useNavigate()
@@ -14,7 +15,11 @@ function Tlevel() {
     
   }
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
        <div className="wrapper">
             <video autoPlay muted loop className="vik">
                 <source src={'lib.mp4'} type="video/mp4"/>
@@ -2066,17 +2071,9 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
       <div className="row">
           <div className="col-md">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/K40lNL3KsJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/xJf6pHqLzs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/kswiDQ2aAKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/DWiCaDPM7Hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/NyOYW07-L5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
           </div>
           <div className="col-md">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/mOEFTX9DAEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bdn3u2OHvKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/scKfEoHX6Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/mGDJO2M7RBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-          {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/7Siv2NNCFag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
           </div>
         </div>
         {/* <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. */}
@@ -2090,7 +2087,7 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
 
 
 
-    </div>
+    </motion.div>
   )
 }
 

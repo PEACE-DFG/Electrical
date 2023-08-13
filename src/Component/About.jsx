@@ -4,6 +4,7 @@ import '../../public/face.jpg'
 import '../../public/face2.jpg'
 import '../../public/grade.png'
 import '../../public/grade1.png'
+import { motion } from 'framer-motion'
 function About() {
   const navigate=useNavigate()
   let user=JSON.parse(localStorage.getItem('users'))
@@ -14,7 +15,11 @@ function About() {
     
   }
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
                 <div style={{backgroundColor:'rgb(91, 150, 2)'}} >
         <div className='container top text-light'  >
            <header className='d-flex '>
@@ -692,7 +697,7 @@ directed to the Admission Officer on fulfilment of every necessary
 requirement.
     </p>
    </section>
-    </div>
+    </motion.div>
   )
 }
 

@@ -2,11 +2,16 @@ import React from 'react'
 import '../../public/library.mp4'
 import {Animated} from "react-animated-css";
 import '../../public/logo.jpg'
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 2 }} // Transition duration in seconds
+    >
          <div className="wrapper">
             <video autoPlay muted loop className="vik">
                 <source src={'library.mp4'} type="video/mp4"/>
@@ -95,7 +100,7 @@ function Home() {
 
     </section>
         
-    </div>
+    </motion.div>
   )
 }
 

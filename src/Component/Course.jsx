@@ -3,6 +3,7 @@ import { Link,useNavigate } from 'react-router-dom'
 import '../../public/uni-1.jpg'
 import '../../public/uni-2.jpg'
 import '../../public/uni-3.jpg'
+import { motion } from 'framer-motion'
 
 function Course() {
   const navigate=useNavigate()
@@ -14,7 +15,11 @@ function Course() {
     
   }
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
           <div style={{backgroundColor:'rgb(91, 150, 2)'}} >
         <div className='container top text-light'  >
            <header className='d-flex '>
@@ -279,7 +284,7 @@ Please Register and Sign in  toaccess your courses
              <span>Copyright <i class="fa-solid fa-copyright text-light"></i> 2023, Design by CODEMaster</span><i class="fa-brands fa-github"></i>
             </footer>
         </section>
-    </div>
+    </motion.div>
   )
 }
 

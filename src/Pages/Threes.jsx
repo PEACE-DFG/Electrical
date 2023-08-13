@@ -5,8 +5,10 @@ import Popup from '../Component/Popup'
 function Threes() {
   return (
     <div>
+
         <Three/>
-        <Popup/>
+     <Popup/>
+
     </div>
   )
 }

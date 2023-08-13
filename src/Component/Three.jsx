@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link ,useNavigate} from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function Three() {
     const navigate=useNavigate()
@@ -12,7 +13,11 @@ function Three() {
       
     }
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}  // Initial state is fully transparent
+    animate={{ opacity: 1 }}  // Animate to fully opaque
+    transition={{ duration: 1 }} // Transition duration in seconds
+    >
          <div className="wrapper">
             <video autoPlay muted loop className="vik">
                 <source src={'lib.mp4'} type="video/mp4"/>
@@ -168,13 +173,15 @@ Please Register and Sign in  toaccess your courses
   </div>
 </nav>
 {/* next section */}
-<section style={{backgroundColor:'rgb(0,0,0,0.6)'}}>
-       <marquee behavior="" className='text-light' direction="">
+<section style={{backgroundColor:'rgb(0,0,0,0.6)'}}>   
+       <section className='container text-light my-3 pb-3'>
+        <div>
+           <marquee behavior="" className='text-light ' direction="">
         This Page Contains Useful Material Resources For All Courses in 300 level
        </marquee>
        <hr style={{color:'white'}} className='my-2 py-2' />
 
-       <section className='container'>
+        </div>
         <div>
        <p className='text-white'>
        <div className='container text-light my-3 pb-3'>
@@ -222,41 +229,15 @@ Please Register and Sign in  toaccess your courses
     <div class="col-md-6 ">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ethnHSgVbHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe> */}
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/eWRfhZUzrAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ErcH_OuCaNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>  */}
     </div>
   </div>
-        {/* <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. */}
       </div>
     </div>
   </div>
-  {/* <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div> */}
+
 </div>
 
 {/* SECOND ACCORDION COURSE */}
@@ -295,7 +276,6 @@ Please Register and Sign in  toaccess your courses
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/ukNbG7muKho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/qGiKv3-02vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
   </div>
   <div class="row g-1">
@@ -305,8 +285,6 @@ Please Register and Sign in  toaccess your courses
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/pFTsbsLESpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ukNbG7muKho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/qGiKv3-02vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
   </div>
   <div class="row g-1">
@@ -320,14 +298,12 @@ Please Register and Sign in  toaccess your courses
   </div>
   <div class="row g-1">
     <div class="col-md-6 ">
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/-5e2cULI3H8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/PjYasDZRbM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/lCkGZ1LTQx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     </div>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/_1GTPKIehEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
   </div>
       </div>
     </div>
@@ -343,32 +319,16 @@ Please Register and Sign in  toaccess your courses
       <div class="row g-1">
     <div class="col-md-6 ">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/lNlFmnGGH60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/-5e2cULI3H8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/PjYasDZRbM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/8U0timpoY6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/lCkGZ1LTQx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
     </div>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/_1GTPKIehEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
   </div>
-        {/* <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. */}
       </div>
     </div>
   </div>
-  {/* <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseFour">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div> */}
+
 </div>
 <div>
        <p className='text-white'>
@@ -415,9 +375,7 @@ Please Register and Sign in  toaccess your courses
       <div class="accordion-body">
       <div class="row g-1">
     <div class="col-md-6 ">
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/7f50sQYjNRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/ethnHSgVbHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe> */}
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/qGiKv3-02vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -430,18 +388,18 @@ Please Register and Sign in  toaccess your courses
 </div>
 
 {/* Cirduit theory */}
-<div>
+<div  >
        <p className='text-white'>
        <div className='container text-light my-3 pb-3'>
     <h5>
 <u>
-    4. Electrical Circuit Theory <span className='text-warning'>(EEE 321)</span>:
+    4. Electrical Circuit Theory <span className='text-warning'>(EEE 321)</span>
 
 </u>
 
     </h5>
     <p style={{textAlign:'justify'}}>
-  The recommended Textbooks are titled <u><i>Network Analysis And Synthesis-Mc Graw Hill India (2014)</i></u> by Ghosh and A. Chakraborty  <span>And</span> <u><i>Circuit Theory and Networks Analysis and Synthesis-McGraw-Hill Education (2018)</i></u>    Ravish R. Singh -
+  The recommended Textbooks are titled <u><i>Network Analysis And Synthesis-Mc Graw Hill India (2014)</i></u> by Ghosh and A. Chakraborty  <span>And</span> <u><i>Circuit Theory and Networks Analysis and Synthesis-McGraw-Hill Education (2018)</i></u>Ravish R. Singh
 </p>
 <p>
   Click on the Link below to download the pdf
@@ -450,8 +408,7 @@ Please Register and Sign in  toaccess your courses
   Link: <a href="https://compress-pdf.obar.info/#google_vignette" target='_blank' className='text-info'> Network Analysis And Synthesis-Mc Graw Hill India (2014)</a>
   </p>
   <p>
-  Link: <a href="https://compress-pdf.obar.info/
-" target='_blank' className='text-info'> Circuit Theory and Networks Analysis and Synthesis-McGraw-Hill Education (2018)</a>
+  Link: <a href="https://compress-pdf.obar.info/" target='_blank' className='text-info'> Circuit Theory and Networks Analysis and Synthesis-McGraw-Hill Education (2018)</a>
   </p>   
     
   </div>
@@ -460,7 +417,7 @@ Please Register and Sign in  toaccess your courses
             
           </h3>
         </div>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion " id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
@@ -480,11 +437,9 @@ Please Register and Sign in  toaccess your courses
   <div class="row g-1">
     <div class="col-md-6 ">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZfTWdlb2BYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/QlM1dC2gBLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/rzmW9fMBcVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/pn777Ya0OHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
   </div>
   <div class="row g-1">
@@ -493,18 +448,16 @@ Please Register and Sign in  toaccess your courses
 
     </div>
     <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PWDNPFN6zTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/PWDNPFN6zTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
   <div class="row g-1">
     <div class="col-md-6 ">
-  {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/bRXQfZMzVJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/jWbWWoCY5n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/LnqVN4ebOxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/PWDNPFN6zTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     </div>
   </div>
   <div class="row g-1">
@@ -515,8 +468,264 @@ Please Register and Sign in  toaccess your courses
     </div>
     <div class="col-md-6">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/5_mmZNkn9J0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/LnqVN4ebOxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/PWDNPFN6zTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+{/* Electromagnetic */}
+
+<div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    5. Electromagnetic fields and WavesAnd Applications <span className='text-warning'>(EEE 323)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>ELECTROMAGNETIC_FIELDS_AND_WAVES AND APPPLICATIONS</i></u> by Isreal Esan OWOLABI,Ph.D,Adedayo Olukayode OJO,M.Sc,Adedayo AJIBADE,M.Sc
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://portal.abuad.edu.ng/lecturer/documents/1585933303ELECTROMAGNETIC_FIELDS_AND_WAVES3.pdf" className='text-info'>ELECTROMAGNETIC_FIELDS_AND_WAVES</a>
+  </p>  
+
+ 
+    
+  </div>
+       </p>
+         
+        </div>
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+      Electromagnetic fields and Waves
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row g-1">
+    <div class="col-md-6 ">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/kCp5yYjo9zE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/eCCbUdnj0j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/q1eor6oIuUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/meWRs2khg2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+{/* Electrical Electronics */}
+
+<div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    6. Electronic Circuits I <span className='text-warning'>(EEE 313)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Fundamentals_of_Electric_Circuits_6th_Sadiku</i></u> by  Charles K. Alexander || Mathew N.O Sadiku
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://bank.engzenon.com/tmp/5e7f9acb-39dc-47b3-afd0-4ff1c0feb99b/5bf85097-f60c-4c96-b1cc-4230c0feb99b/Fundamentals_of_Electric_Circuits_6th_Sadiku.pdf" className='text-info'> Fundamentals_of_Electric_Circuits_6th_Sadiku</a>
+  </p>  
+
+ 
+    
+  </div>
+       </p>
+          <h3>
+            
+          </h3>
+        </div>
+       <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+      Electronic Circuits
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row g-1">
+    <div class="col-md-6 ">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ethnHSgVbHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/g54vURe47gM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aOKc5_s_8LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/JQBRzsPhw2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/W7YTfLaPWRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/TIYTI8rhaN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+{/* Dr lawal Part */}
+
+<div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    7. Digital Circuit Analysis and Design <span className='text-warning'>(EEE 308)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>digital-systems-principles-and-applications-10th-edition</i></u> by Ronald J. Tocci,Neal S. Widmer,Gregory L. Moss
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://eceatglance.files.wordpress.com/2018/07/digital-systems-principles-and-applications-10th-edition-tocci-widmer.pdf" className='text-info'>digital-systems-principles-and-applications-10th-edition</a>
+  </p>  
+
+ 
+    
+  </div>
+       </p>
+         
+        </div>
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+      Electromagnetic fields and Waves
+      </button>
+    </h2>
+    <div id="collapseEleven" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row g-1">
+    <div class="col-md-6 ">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0rLiYpy2CqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/AM0tr8Kyvzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/rsxT4FfRBaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sJXTo3EZoxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {/* <iframe width="100%" height="315" src="https://www.youtube.com/embed/meWRs2khg2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/AE-27BSbkJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/yPu57aSj9kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ChtmE09BSy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1o0RPZeY8mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Bwih7_AT1oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/DdMcAUlxh1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/RO5alU6PpSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/FPrcIhqNPVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZayoUTi2tsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_F9nAb6m4U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Soj8BfhEdy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/4c6z9RKrC8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/mXoQ4WAQ0qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/4c6z9RKrC8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-6 ">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/6mf64D0bayE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/56ouFodPZ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
       </div>
@@ -526,7 +735,7 @@ Please Register and Sign in  toaccess your courses
 </div>
        </section>
   </section>
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Lottie from "lottie-react";
+import animationData from '../assets/animation_ll8u2hyx.json'
+
 
 const AdvertisementPopup = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -37,10 +40,20 @@ const AdvertisementPopup = () => {
     <div style={popupStyle}>
       {showPopup && (
         <>
-          <button onClick={closePopup} className=' text-light' style={{ position: 'absolute', top: '150px', right: '10px', border: 'none', background: 'none', borderRadius:'50px', cursor: 'pointer',backgroundColor:'rgb(0,0,0,0.6)' }}>
+          <button onClick={closePopup} className='text-light lot' >
             <span aria-hidden="true" style={{fontSize:"25px",fontWeight:'700'}} className='p-2 align-items-center '>&times;</span>
           </button>
-          <h4>Contact For Tutorials</h4>
+          <div  style={{alignItems:"center",display:'flex',flexWrap:'wrap'}}>
+            <div>
+          <Lottie animationData={animationData}  style={{width:'50px'}}/>
+
+            </div>
+            <div>
+          <h6>Contact For Tutorials & Mentorship</h6>
+
+            </div>
+
+          </div>
           <hr />
           <p>Phone: 08116405518</p>
           <p>Email: awofesobipeace@gmail.com</p>
