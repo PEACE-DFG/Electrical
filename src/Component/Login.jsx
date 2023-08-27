@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Swal from 'sweetalert2';
 
 function Login() {
   const navigate = useNavigate();
@@ -28,18 +29,32 @@ function Login() {
         (u) => u.Matricnumber === user.matricnumber && u.Password === user.password
       );
 
-      if (matchedUser) {
-        // Successful login
-        alert('You are Logged In');
+    //   if (matchedUser) {
+    //     // Successful login
+    //     alert('You are Logged In');
+    //     navigate('/Home');
+    //   } else {
+    //     // Invalid login
+    //     setError('Invalid login details');
+    //   }
+    // } else {
+    //   // No registered users
+    //   setError('You have not registered. Please register first');
+    // }
+    if (matchedUser) {
+      // Successful login
+      Swal.fire({
+        icon: 'success',
+        title: 'You are Logged In',
+      }).then(() => {
+        // This part can be used to navigate to another page
+        // Replace 'navigate' with your actual navigation function
         navigate('/Home');
-      } else {
-        // Invalid login
-        setError('Invalid login details');
-      }
+      });
     } else {
-      // No registered users
-      setError('You have not registered. Please register first');
-    }
+      // Invalid login
+      setError('Invalid login details');
+    }}
   };
 
   return (

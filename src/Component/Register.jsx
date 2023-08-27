@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Swal from 'sweetalert2';
 
 function Register() {
   const navigate = useNavigate();
@@ -52,8 +53,19 @@ function Register() {
       const dataUsers = JSON.stringify(users);
       localStorage.setItem('users', dataUsers);
 
-      alert('Thank you for registering'+" " +": "+ " " + users[0].Matricnumber)
-      navigate('/Logins');
+      // alert('Thank you for registering'+" " +": "+ " " + users[0].Matricnumber)
+      // navigate('/Logins');
+      const matricNumber = users[0].Matricnumber; // Replace with your data source
+
+Swal.fire({
+  icon: 'success',
+  title: 'Thank you for registering',
+  text: `Matric Number: ${matricNumber}`,
+}).then(() => {
+  // This part can be used to navigate to another page
+  // Replace 'navigate' with your actual navigation function
+  navigate('/Logins');
+});
     }
   };
 
