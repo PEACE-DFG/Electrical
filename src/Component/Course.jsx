@@ -48,7 +48,7 @@ function Course() {
            </header>
         </div>
     </div>
-    {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
+  {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
   <div class="container">
   <div>
                 <img src="https://uniosun.edu.ng/templates/uniosun/images/styling/green/logo.png" className='w-75 img-fluid' alt="" />
@@ -68,9 +68,8 @@ function Course() {
            About Us
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">          
-                <Link to='/Abouts'>Department</Link></a></li>
-
+            <li><a class="dropdown-item" href="#">
+            <Link to='/Abouts'>Department</Link></a></li>
             <li><a class="dropdown-item" href="#">
               <Link to='/Lecturers'>Lecturers</Link>
               </a></li>
@@ -88,7 +87,7 @@ function Course() {
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Levels Overviews</a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/Courses'>Courses Overviews</Link></a></li>
+            <Link to='/Courses'>Courses Overviews</Link></a></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Academic Gurus</a></li>
           </ul>
@@ -102,15 +101,16 @@ function Course() {
   localStorage.getItem('users')?
   <>
    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">
+      <Link to='/200level'> 200 level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to='/300level'>300 Level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to="/400level">400 level Courses</Link></a></li>
   </ul>
   </>:
   <>
   <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
 <h5 className='text-center bg-danger text-light m-0 p-0'> <i class="fa-solid fa-bell fa-shake"></i>
-Please Register and Sign in  toaccess your courses
+Please Register and Sign in  to access your courses
 
 </h5>
     {/* <li><a class="dropdown-item" href="#"></a></li> */}
@@ -122,7 +122,8 @@ Please Register and Sign in  toaccess your courses
   </>
  }
 </div>
-        {
+       
+       {
         localStorage.getItem('users')?
         <>
         <div class="dropdown">

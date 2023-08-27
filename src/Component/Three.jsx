@@ -14,9 +14,9 @@ function Three() {
     }
   return (
     <motion.div
-    initial={{ opacity: 0 }}  // Initial state is fully transparent
-    animate={{ opacity: 1 }}  // Animate to fully opaque
-    transition={{ duration: 1 }} // Transition duration in seconds
+    initial={{ opacity: 0 }}  
+    animate={{ opacity: 1 }} 
+    transition={{ duration: 1 }} 
     >
          <div className="wrapper">
             <video autoPlay muted loop className="vik">
@@ -51,7 +51,7 @@ function Three() {
            </header>
         </div>
     </div>
-    {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
+  {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
   <div class="container">
   <div>
                 <img src="https://uniosun.edu.ng/templates/uniosun/images/styling/green/logo.png" className='w-75 img-fluid' alt="" />
@@ -107,13 +107,13 @@ function Three() {
     <li><a class="dropdown-item" href="#">
       <Link to='/200level'> 200 level Courses</Link></a></li>
     <li><a class="dropdown-item" href="#"><Link to='/300level'>300 Level Courses</Link></a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#"><Link to="/400level">400 level Courses</Link></a></li>
   </ul>
   </>:
   <>
   <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
 <h5 className='text-center bg-danger text-light m-0 p-0'> <i class="fa-solid fa-bell fa-shake"></i>
-Please Register and Sign in  toaccess your courses
+Please Register and Sign in  to access your courses
 
 </h5>
     {/* <li><a class="dropdown-item" href="#"></a></li> */}
@@ -174,7 +174,7 @@ Please Register and Sign in  toaccess your courses
 </nav>
 {/* next section */}
 <section style={{backgroundColor:'rgb(0,0,0,0.6)'}}>   
-       <section className='container text-light my-3 pb-3'>
+       <section className='container text-light  pb-3'>
         <div>
            <marquee behavior="" className='text-light ' direction="">
         This Page Contains Useful Material Resources For All Courses in 300 level

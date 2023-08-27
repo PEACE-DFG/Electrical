@@ -12,6 +12,7 @@ import Tslevel from '../Pages/Tslevel'
 import Threes from '../Pages/Threes'
 import Index from '../Pages/Index'
 import {AnimatePresence} from 'framer-motion'
+import Flevels from '../Pages/Flevels'
 function AnimatedRoutes() {
     const location=useLocation();
   return (
@@ -28,6 +29,7 @@ function AnimatedRoutes() {
       <Route path='/VcSpeech' element={<Vcs/>}></Route>
       <Route path='/200level' element={<Tslevel/>}></Route>
       <Route path='/300level' element={<Threes/>}></Route>
+      <Route path='/400level' element={<Flevels/>}></Route>
     </Routes>
     </AnimatePresence>
   )

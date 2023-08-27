@@ -47,7 +47,7 @@ function Calender() {
         </div>
     </div>
     {/* navbar */}
-        {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar sticky-top navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
+  {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
   <div class="container">
   <div>
                 <img src="https://uniosun.edu.ng/templates/uniosun/images/styling/green/logo.png" className='w-75 img-fluid' alt="" />
@@ -67,13 +67,14 @@ function Calender() {
            About Us
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">              <Link to='/Abouts'>Department</Link></a></li>
-
+            <li><a class="dropdown-item" href="#">
+            <Link to='/Abouts'>Department</Link></a></li>
             <li><a class="dropdown-item" href="#">
               <Link to='/Lecturers'>Lecturers</Link>
               </a></li>
-            <li><a class="dropdown-item" href="#">              <Link to='/SchoolCalender'>School Calender</Link>
-</a></li>
+            <li><a class="dropdown-item" href="#">
+              <Link to='/SchoolCalender'>School Calender</Link>
+              </a></li>
             <li><hr class="dropdown-divider"/></li>
             {/* <li><a class="dropdown-item" href="#">Upcoming Events</a></li> */}
           </ul>
@@ -85,15 +86,43 @@ function Calender() {
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Levels Overviews</a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/Courses'>Courses Overviews</Link></a></li>
+            <Link to='/Courses'>Courses Overviews</Link></a></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Academic Gurus</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link ">Library</a>
-        </li>
-        {
+        <div class="dropdown">
+  <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    library
+  </a>
+
+ {
+  localStorage.getItem('users')?
+  <>
+   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">
+      <Link to='/200level'> 200 level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to='/300level'>300 Level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to="/400level">400 level Courses</Link></a></li>
+  </ul>
+  </>:
+  <>
+  <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
+<h5 className='text-center bg-danger text-light m-0 p-0'> <i class="fa-solid fa-bell fa-shake"></i>
+Please Register and Sign in  to access your courses
+
+</h5>
+    {/* <li><a class="dropdown-item" href="#"></a></li> */}
+    {/* <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li> */}
+  </ul>
+  {/* <h5>
+  </h5> */}
+  </>
+ }
+</div>
+       
+       {
         localStorage.getItem('users')?
         <>
         <div class="dropdown">
