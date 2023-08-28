@@ -47,15 +47,19 @@ function Login() {
         icon: 'success',
         title: 'You are Logged In',
       }).then(() => {
-        // This part can be used to navigate to another page
-        // Replace 'navigate' with your actual navigation function
-        navigate('/Home');
+        setTimeout(() => {
+          navigate('/Home'); // Navigate after 1 second delay
+        }, 1000);
       });
     } else {
       // Invalid login
       setError('Invalid login details');
-    }}
-  };
+    }
+  } else {
+    // No registered users
+    setError('You have not registered. Please register first');
+  }
+};
 
   return (
     <motion.div
