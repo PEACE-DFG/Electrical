@@ -48,8 +48,8 @@ function Course() {
            </header>
         </div>
     </div>
-  {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
-  <div class="container">
+ {/* $$$$$$$$$$$$$$$$$$$$$4444 */}<nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:'rgb(255,255,255,0.8)'}}>
+ <div class="container">
   <div>
                 <img src="https://uniosun.edu.ng/templates/uniosun/images/styling/green/logo.png" className='w-75 img-fluid' alt="" />
             </div>
@@ -85,11 +85,9 @@ function Course() {
            Academics
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Levels Overviews</a></li>
             <li><a class="dropdown-item" href="#">
             <Link to='/Courses'>Courses Overviews</Link></a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Academic Gurus</a></li>
           </ul>
         </li>
         <div class="dropdown">
@@ -162,10 +160,8 @@ Please Register and Sign in  to access your courses
         </>
        }
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <img src="https://i.pinimg.com/736x/c5/8e/13/c58e137d1a8fb49300b869e6b8a732e7.jpg" width={'50px'} alt="" />
+
     </div>
   </div>
 </nav>
