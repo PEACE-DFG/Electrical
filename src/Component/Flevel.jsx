@@ -458,9 +458,6 @@ Please Register and Sign in  to access your courses
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/A6yoSixJ5eM?si=Dqvj2c-X9xbTQXM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
-
-  
-  
       </div>
     </div>
   </div>
@@ -511,7 +508,8 @@ Please Register and Sign in  to access your courses
     </div>
   </div>
 
-</div>
+        </div>
+        
         </div>
 
 
