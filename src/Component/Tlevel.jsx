@@ -2079,6 +2079,9 @@ Link: <a href="https://www.hzu.edu.in/engineering/engineering-mechanics-statics-
 </div>
 </section>
 </section>
+<footer className='text-light text-center' style={{backgroundColor:'rgb(91, 150, 2,0.7)'}}>
+             <span>Copyright <i class="fa-solid fa-copyright text-light"></i> 2023, Design by CODEMaster</span><i class="fa-brands fa-github"></i>
+            </footer>
 </section>
 
 

@@ -720,7 +720,11 @@ so. Request for transcript for this and any other relevant purpose should be
 directed to the Admission Officer on fulfilment of every necessary
 requirement.
     </p>
+    
    </section>
+   <footer className='text-light text-center' style={{backgroundColor:'rgb(91, 150, 2,0.7)'}}>
+             <span>Copyright <i class="fa-solid fa-copyright text-light"></i> 2023, Design by CODEMaster</span><i class="fa-brands fa-github"></i>
+            </footer>
     </motion.div>
   )
 }
