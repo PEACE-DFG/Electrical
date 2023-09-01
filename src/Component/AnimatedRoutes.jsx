@@ -13,6 +13,9 @@ import Threes from '../Pages/Threes'
 import Index from '../Pages/Index'
 import {AnimatePresence} from 'framer-motion'
 import Flevels from '../Pages/Flevels'
+import Alum from '../Pages/Alum'
+import Admin from '../Pages/Admin'
+import Unes from '../Pages/Unes'
 function AnimatedRoutes() {
     const location=useLocation();
   return (
@@ -30,6 +33,9 @@ function AnimatedRoutes() {
       <Route path='/200level' element={<Tslevel/>}></Route>
       <Route path='/300level' element={<Threes/>}></Route>
       <Route path='/400level' element={<Flevels/>}></Route>
+      <Route path='/Alumni' element={<Alum/>}></Route>
+      <Route path='/Admin' element={<Admin/>}></Route>
+      <Route path='/Unes' element={<Unes/>}></Route>
     </Routes>
     </AnimatePresence>
   )

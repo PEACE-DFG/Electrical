@@ -250,33 +250,44 @@ Please Register and Sign in  to access your courses
                 <div className="m-auto " style={{display:'flex',flexWrap:'wrap',justifyContent:'space-around'}}>
           <div className="cold">
           <div className="card my-3" style={{width:'15rem'}}>
-        <img src="https://uniosun.edu.ng/cache/resized/5b9e50a3df6815d39685370bde0b2b06.jpg" className="card-img-top img-fluid w-100" alt="..."/>
-        <div className="card-body">
-          <h6 className="card-title">UNIOSUN VC FELICITATES WORKERS ON 2023 WORKERS’ DAY</h6>
-          <p className="card-text" style={{fontSize:'12px'}}>The Vice-Chancellor of Osun State University, Professor Odunayo Clement Adebooye, has felicitated workers on the occasion of the 2023 Workers’ Day ...</p>
-          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> Read more</a>
-        </div>
-      </div>
-          </div>
-          <div className="cold">
-          <div className="card my-3" style={{width:'15rem'}}>
-        <img src="https://uniosun.edu.ng/cache/resized/8eac93ffca3c05e7e83f30e1576ac750.jpg" className="card-img-top img-fluid w-100" alt="..."/>
+        <img src="https://www.uniosun.edu.ng/media/k2/items/cache/0561feaa86a9d43b7dc634e81b54e049_L.jpg" className="card-img-top img-fluid w-100 " alt="..."/>
         <div className="card-body">
           <h6 className="card-title">
-      UNIOSUN FRENCH DEPARTMENT EMERGES WINNER  OF ALLIANCE FRANCAISE COMPETITION</h6>
-          <p className="card-text" style={{fontSize:'12px'}}>The Department of French of Osun State University has emerged winner of the 2023 Quiz, Debate, Song and Drama competitions...</p>
-          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> Read more</a>
+UNIOSUN ALUMNUS WINS £12,623 UK TUITION WAIVER FOR THREE YEARS</h6>
+          <p className="card-text" style={{fontSize:'12px'}}>Osun State University (UNIOSUN) continues to make waves in academia, as one of her Alumni, Obasanjo Okekunle, bagged the prestigious University of ...</p>
+          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> 
+          <Link to='/Alumni'>
+          Read more
+          </Link>
+          </a>
         </div>
       </div>
           </div>
           <div className="cold">
           <div className="card my-3" style={{width:'15rem'}}>
-        <img src="https://uniosun.edu.ng/cache/resized/18744b655dc35e81037cd6e3a567e17d.jpg" className="card-img-top img-fluid w-100" alt="..."/>
+        <img src="https://www.uniosun.edu.ng/cache/resized/6267ec80b08c811bab8af86d929c3662.jpg" className="card-img-top img-fluid w-100 " style={{height:'190px'}} alt="..."/>
         <div className="card-body">
-          <h6 className="card-title">UNIOSUN RECEIVES FULL ACCREDITATION FOR 26 ACADEMIC PROGRAMMES</h6>
-          <p className="card-text" style={{fontSize:'12px'}}>The National Universities Commission has conveyed its approval of full accreditation for twenty-six undergraduate and postgraduate academic ...
+          <h6 className="card-title">
+      
+2023/2024 ADMISSION EXERCISE: NOTICE OF INTER UNIVERSITY TRANSFER</h6>
+          <p className="card-text" style={{fontSize:'12px'}}>This is to inform all the prospective applicants intending to transfer their studentship to Osun State University that the University has commenced ...</p>
+          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> 
+          <Link to='/Admin'>
+          Read more
+          </Link></a>
+        </div>
+      </div>
+          </div>
+          <div className="cold">
+          <div className="card my-3" style={{width:'15rem'}}>
+        <img src="https://www.uniosun.edu.ng/cache/resized/2d055e5bfa36cfffb9ae11db8ba965da.jpg" className="card-img-top img-fluid w-100" alt="..."/>
+        <div className="card-body pt-4">
+          <h6 className="card-title">UNIOSUN TO COLLABORATE WITH FG AND UNESCO ON SAFEGUARDING INTANGIBLE CULTURAL HERITAGE</h6>
+          <p className="card-text" style={{fontSize:'12px'}}>In a significant stride towards the preservation of Nigeria's rich  ...
       </p>
-          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> Read more</a>
+          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> <Link to='/Unes'>
+          Read more
+          </Link></a>
         </div>
       </div>
           </div>
