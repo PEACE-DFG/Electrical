@@ -509,11 +509,90 @@ Please Register and Sign in  to access your courses
   </div>
 
         </div>
-        
+
         </div>
 
 
+        {/* second course */}
+        <div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    2. Digital Circuit Analysis and Design <span className='text-warning'>(EEE 413)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>digital-systems-principles-and-applications-10th-edition</i></u> by Ronald J. Tocci,Neal S. Widmer,Gregory L. Moss
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://eceatglance.files.wordpress.com/2018/07/digital-systems-principles-and-applications-10th-edition-tocci-widmer.pdf" className='text-info'>digital-systems-principles-and-applications-10th-edition</a>
+  </p>  
+
+ 
+    
+  </div>
+       </p>
+         
+        </div>
+        {/* third course */}
+        <div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    3. Principles Of Communication <span className='text-warning'>(EEE 417)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Principles-Of-Communications-7th-edition</i></u> by Rodger E Ziemer and William H Tranter
+</p>
+<p>
+  Click on the Link below to download the pdf
+</p>
+<p>
+  Link: <a href="https://physicaeducator.files.wordpress.com/2018/03/principles-of-communications-7th-edition-ziemer.pdf" className='text-info'>Principles-Of-Communications-7th-edition</a>
+  </p>  
+
+ 
+    
+  </div>
+       </p>
+         
+        </div>
+        {/* fourth course */}
+        <div>
+       <p className='text-white'>
+       <div className='container text-light my-3 pb-3'>
+    <h5>
+<u>
+    4. Technical Report Writing <span className='text-warning'>(CVE 401)</span>:
+
+</u>
+
+    </h5>
+    <p style={{textAlign:'justify'}}>
+  The recommended Textbook is title <u><i>Advanced Academic Writing </i></u> by Abidoye Lukman Kolawole, The hard copy of the book can be purchased within the Faculty premises.
+</p>
+<p>
+  Click on the Link below to Purchase the E-book
+</p>
+<p>
+  Link: <a href="https://www.amazon.co.uk/ADVANCED-ACADEMIC-WRITING-Technical-Writing-ebook/dp/B07RQGVGT4" className='text-info'>Advanced Academic Writing</a>
+  </p> 
+  </div>
+       </p>
+         
+        </div>
         </section>
+
             </section>
         </motion.div>
   )

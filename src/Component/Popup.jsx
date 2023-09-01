@@ -13,7 +13,7 @@ const AdvertisementPopup = () => {
     // Show the pop-up every 5 minutes (adjust the interval as needed)
     const popupInterval = setInterval(() => {
       setShowPopup(true);
-    }, 3 * 60 * 1000); // 5 minutes in milliseconds
+    }, 5 * 60 * 1000); // 5 minutes in milliseconds
 
     // Clean up the interval when the component is unmounted
     return () => {
