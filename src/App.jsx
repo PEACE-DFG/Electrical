@@ -1,4 +1,5 @@
 import './App.css'
+import'./index.css'
 import React, { useState } from 'react'
 import { createContext } from 'react'
 import './all.min.css'
