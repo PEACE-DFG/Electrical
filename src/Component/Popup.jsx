@@ -57,7 +57,8 @@ const AdvertisementPopup = () => {
           <hr />
           <p>Phone: 08116405518</p>
           <p>Email: awofesobipeace@gmail.com</p>
-          <p><i class="fa-brands fa-whatsapp text-success fs-5"></i> <a href="https://wa.me/qr/WZWX2LR6FJFPB1">WhatsApp</a></p>
+          <p><i class="fa-brands fa-whatsapp text-success fs-5"></i> <a href="https://wa.me/qr/WZWX2LR6FJFPB1" className='
+          text-success'>WhatsApp</a></p>
         </>
       )}
     </div>

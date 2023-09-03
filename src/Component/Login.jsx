@@ -119,12 +119,12 @@ function Login() {
             About Us
            </a>
            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-             <li><a class="dropdown-item" href="#">              <Link to='/Abouts'>Department</Link></a></li>
+             <li><a class="dropdown-item" href="#">              <Link to='/Abouts' className='Linke'>Department</Link></a></li>
              <li><a class="dropdown-item" href="#">
-               <Link to='/Lecturers'>Lecturers</Link>
+               <Link to='/Lecturers' className='Linke'>Lecturers</Link>
                </a></li>
              <li><a class="dropdown-item" href="#">
-               <Link to='/SchoolCalender'>School Calender</Link>
+               <Link to='/SchoolCalender' className='Linke'>School Calender</Link>
                </a></li>
              <li><hr class="dropdown-divider"/></li>
              {/* <li><a class="dropdown-item" href="#">Upcoming Events</a></li> */}
@@ -137,7 +137,7 @@ function Login() {
            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
              <li><a class="dropdown-item" href="#">Levels Overviews</a></li>
              <li><a class="dropdown-item" href="#">
-             <Link to='/Courses'>Courses Overviews</Link></a></li>
+             <Link to='/Courses' className='Linke'>Courses Overviews</Link></a></li>
              <li><hr class="dropdown-divider"/></li>
              <li><a class="dropdown-item" href="#">Academic Gurus</a></li>
            </ul>
@@ -147,12 +147,12 @@ function Login() {
          </li>
          <li class="nav-item">
            <a class="nav-link ">
-             <Link to='/Registers'>Register</Link>
+             <Link to='/Registers' className='Linke'>Register</Link>
            </a>
          </li>
          <li class="nav-item">
            <a class="nav-link ">
-             <Link to='/Logins'>Login</Link>
+             <Link to='/Logins' className='Linke'>Login</Link>
            </a>
          </li>
        </ul>
@@ -181,7 +181,7 @@ function Login() {
                   <button type="submit" className="btn btn-primary">Submit</button>
                 </div>
                 <div className="text-center mt-3">
-                  <p>Don't have an account? <Link to="/Registers">Register here</Link></p>
+                  <p>Don't have an account? <Link to="/Registers" className='text-success'>Register here</Link></p>
                 </div>
               </div>
             </div>

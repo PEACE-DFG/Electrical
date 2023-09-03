@@ -104,12 +104,12 @@ function Homepage() {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">
-            <Link to='/Abouts'>Department</Link></a></li>
+            <Link to='/Abouts' className='Linke'>Department</Link></a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/Lecturers'>Lecturers</Link>
+              <Link to='/Lecturers' className='Linke'>Lecturers</Link>
               </a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/SchoolCalender'>School Calender</Link>
+              <Link to='/SchoolCalender' className='Linke'>School Calender</Link>
               </a></li>
             <li><hr class="dropdown-divider"/></li>
             {/* <li><a class="dropdown-item" href="#">Upcoming Events</a></li> */}
@@ -121,7 +121,7 @@ function Homepage() {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">
-            <Link to='/Courses'>Courses Overviews</Link></a></li>
+            <Link to='/Courses' className='Linke'>Courses Overviews</Link></a></li>
             <li><hr class="dropdown-divider"/></li>
           </ul>
         </li>
@@ -135,9 +135,9 @@ function Homepage() {
   <>
    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <li><a class="dropdown-item" href="#">
-      <Link to='/200level'> 200 level Courses</Link></a></li>
-    <li><a class="dropdown-item" href="#"><Link to='/300level'>300 Level Courses</Link></a></li>
-    <li><a class="dropdown-item" href="#"><Link to="/400level">400 level Courses</Link></a></li>
+      <Link to='/200level' className='Linke'> 200 level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to='/300level' className='Linke'>300 Level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to="/400level" className='Linke'>400 level Courses</Link></a></li>
   </ul>
   </>:
   <>
@@ -184,12 +184,12 @@ Please Register and Sign in  to access your courses
         <>
          <li class="nav-item">
           <a class="nav-link ">
-            <Link to='/Registers'>Register</Link>
+            <Link to='/Registers' className='Linke'>Register</Link>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link ">
-            <Link to='/Logins'>Login</Link>
+            <Link to='/Logins' className='Linke'>Login</Link>
           </a>
         </li>
         </>
@@ -256,7 +256,7 @@ Please Register and Sign in  to access your courses
 UNIOSUN ALUMNUS WINS £12,623 UK TUITION WAIVER FOR THREE YEARS</h6>
           <p className="card-text" style={{fontSize:'12px'}}>Osun State University (UNIOSUN) continues to make waves in academia, as one of her Alumni, Obasanjo Okekunle, bagged the prestigious University of ...</p>
           <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> 
-          <Link to='/Alumni'>
+          <Link to='/Alumni' className='Linke'>
           Read more
           </Link>
           </a>
@@ -272,7 +272,7 @@ UNIOSUN ALUMNUS WINS £12,623 UK TUITION WAIVER FOR THREE YEARS</h6>
 2023/2024 ADMISSION EXERCISE: NOTICE OF INTER UNIVERSITY TRANSFER</h6>
           <p className="card-text" style={{fontSize:'12px'}}>This is to inform all the prospective applicants intending to transfer their studentship to Osun State University that the University has commenced ...</p>
           <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> 
-          <Link to='/Admin'>
+          <Link to='/Admin' className='Linke'>
           Read more
           </Link></a>
         </div>
@@ -285,7 +285,7 @@ UNIOSUN ALUMNUS WINS £12,623 UK TUITION WAIVER FOR THREE YEARS</h6>
           <h6 className="card-title">UNIOSUN TO COLLABORATE WITH FG AND UNESCO ON SAFEGUARDING INTANGIBLE CULTURAL HERITAGE</h6>
           <p className="card-text" style={{fontSize:'12px'}}>In a significant stride towards the preservation of Nigeria's rich  ...
       </p>
-          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> <Link to='/Unes'>
+          <a href="#" className="btn btn-light"><i class="fa-solid fa-check"></i> <Link to='/Unes' className='Linke'>
           Read more
           </Link></a>
         </div>

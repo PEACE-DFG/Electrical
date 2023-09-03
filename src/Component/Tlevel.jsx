@@ -74,12 +74,12 @@ function Tlevel() {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">
-            <Link to='/Abouts'>Department</Link></a></li>
+            <Link to='/Abouts' className='Linke'>Department</Link></a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/Lecturers'>Lecturers</Link>
+              <Link to='/Lecturers' className='Linke'>Lecturers</Link>
               </a></li>
             <li><a class="dropdown-item" href="#">
-              <Link to='/SchoolCalender'>School Calender</Link>
+              <Link to='/SchoolCalender' className='Linke'>School Calender</Link>
               </a></li>
             <li><hr class="dropdown-divider"/></li>
             {/* <li><a class="dropdown-item" href="#">Upcoming Events</a></li> */}
@@ -91,7 +91,7 @@ function Tlevel() {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">
-            <Link to='/Courses'>Courses Overviews</Link></a></li>
+            <Link to='/Courses' className='Linke'>Courses Overviews</Link></a></li>
             <li><hr class="dropdown-divider"/></li>
           </ul>
         </li>
@@ -105,9 +105,9 @@ function Tlevel() {
   <>
    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <li><a class="dropdown-item" href="#">
-      <Link to='/200level'> 200 level Courses</Link></a></li>
-    <li><a class="dropdown-item" href="#"><Link to='/300level'>300 Level Courses</Link></a></li>
-    <li><a class="dropdown-item" href="#"><Link to="/400level">400 level Courses</Link></a></li>
+      <Link to='/200level' className='Linke'> 200 level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to='/300level' className='Linke'>300 Level Courses</Link></a></li>
+    <li><a class="dropdown-item" href="#"><Link to="/400level" className='Linke'>400 level Courses</Link></a></li>
   </ul>
   </>:
   <>
@@ -154,12 +154,12 @@ Please Register and Sign in  to access your courses
         <>
          <li class="nav-item">
           <a class="nav-link ">
-            <Link to='/Registers'>Register</Link>
+            <Link to='/Registers' className='Linke'>Register</Link>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link ">
-            <Link to='/Logins'>Login</Link>
+            <Link to='/Logins' className='Linke'>Login</Link>
           </a>
         </li>
         </>
